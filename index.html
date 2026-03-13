@@ -106,7 +106,48 @@ nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-co
 .success-screen{display:none;text-align:center;padding:5rem 2rem;max-width:600px;margin:0 auto}
 .success-screen.visible{display:block}
 .success-screen h2{font-size:2rem;margin-bottom:1rem;color:var(--silver-light)}
-.success-screen p{color:var(--text-muted);line-height:1.6;margicta-btn">Take the Poll &rarr;</a>
+.success-screen p{color:var(--text-muted);line-height:1.6;margin-bottom:0.5rem}
+
+/* ══════ FOOTER ══════ */
+footer{text-align:center;padding:3rem 2rem;border-top:1px solid var(--dark-gray);margin-top:4rem}
+footer p{font-size:0.72rem;color:var(--silver-dark);letter-spacing:0.5px}
+footer a{color:var(--silver);text-decoration:none;transition:color 0.3s}
+footer a:hover{color:var(--gold)}
+
+/* ══════ RESPONSIVE ══════ */
+@media(max-width:600px){
+  nav{padding:0.75rem 1rem}
+  .nav-logo span{font-size:0.8rem}
+  .nav-links a{font-size:0.7rem;padding:0.3rem 0.6rem}
+  .hero{padding:3rem 1.5rem 2rem}
+  .form-card{padding:1.5rem 1.25rem}
+  .feature-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    <img src="logo.png" alt="TUG">
+    <span>The Upgraded<br>Gentleman</span>
+  </a>
+  <div class="nav-links">
+    <a href="poll.html">Take the Poll</a>
+    <a href="#how">How It Works</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-logo">
+    <img src="logo.png" alt="The Upgraded Gentleman">
+  </div>
+  <div class="hero-badge">Cologne Collection</div>
+  <h1>The Upgraded <span class="accent">Gentleman</span></h1>
+  <p class="subtitle">Help us curate the ultimate cologne collection. Vote for your favorites and shape what scents we feature next.</p>
+  <a href="poll.html" class="cta-btn">Take the Poll &rarr;</a>
   <div class="hero-divider"></div>
   <div class="scroll-hint">Scroll to learn more</div>
 </section>
