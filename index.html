@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The Upgraded Gentleman — Cologne Collection Poll</title>
+<title>The Upgraded Gentleman â Cologne Collection Poll</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -12,7 +12,7 @@
 body{font-family:'Inter',sans-serif;background:var(--black);color:var(--text);min-height:100vh;-webkit-font-smoothing:antialiased}
 h1,h2,h3{font-family:'Playfair Display',serif;font-weight:700}
 
-/* ══════ NAV ══════ */
+/* ââââââ NAV ââââââ */
 nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0.9rem 2rem;background:rgba(8,8,8,0.97);backdrop-filter:blur(16px);border-bottom:1px solid rgba(201,168,76,0.12)}
 .nav-logo{display:flex;align-items:center;gap:0.85rem;text-decoration:none}
 .nav-logo img{height:42px;width:auto;filter:drop-shadow(0 0 6px rgba(201,168,76,0.15))}
@@ -21,7 +21,7 @@ nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-co
 .nav-links a{color:var(--silver);font-size:0.78rem;text-decoration:none;padding:0.45rem 1.1rem;border:1px solid var(--mid-gray);border-radius:4px;transition:all 0.3s;letter-spacing:0.5px}
 .nav-links a:hover{color:var(--gold);border-color:var(--gold)}
 
-/* ══════ HERO ══════ */
+/* ââââââ HERO ââââââ */
 .hero{text-align:center;padding:4.5rem 2rem 3rem;background:radial-gradient(ellipse at 50% -10%,rgba(201,168,76,0.05) 0%,transparent 55%),radial-gradient(ellipse at 50% 100%,rgba(184,184,184,0.03) 0%,transparent 40%)}
 .hero-logo{margin-bottom:1.5rem}
 .hero-logo img{height:100px;width:auto;filter:drop-shadow(0 4px 20px rgba(201,168,76,0.2))}
@@ -33,11 +33,9 @@ nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-co
 .hero .subtitle{font-size:1.05rem;color:var(--text-muted);max-width:480px;margin:0 auto 2.2rem;line-height:1.65;font-weight:300}
 .hero .cta-btn{display:inline-block;padding:1rem 2.5rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--black);font-weight:600;font-size:0.95rem;border:none;border-radius:6px;cursor:pointer;text-decoration:none;transition:all 0.3s;letter-spacing:0.5px}
 .hero .cta-btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(201,168,76,0.35)}
-.hero-divider{width:60px;height:1px;background:linear-gradient(90deg,transparent,var(--silver-dark),transparent);margin:2.5rem auto 0}
-.scroll-hint{margin-top:1.5rem;font-size:0.65rem;letter-spacing:5px;text-transform:uppercase;color:var(--silver-dark)}
 
-/* ══════ FEATURES ══════ */
-.features{padding:4rem 2rem;max-width:900px;margin:0 auto}
+/* ââââââ FEATURES ââââââ */
+.features{padding:3rem 2rem;max-width:900px;margin:0 auto}
 .features .section-label{font-size:0.7rem;letter-spacing:5px;text-transform:uppercase;color:var(--silver);text-align:center;margin-bottom:0.5rem}
 .features h2{text-align:center;font-size:2rem;margin-bottom:1rem;color:var(--silver-light)}
 .features .section-desc{text-align:center;color:var(--text-muted);max-width:550px;margin:0 auto 2.5rem;line-height:1.6;font-weight:300}
@@ -48,25 +46,21 @@ nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-co
 .feature-card h3{font-size:1.05rem;margin-bottom:0.5rem;color:var(--silver-light)}
 .feature-card p{font-size:0.85rem;color:var(--text-muted);line-height:1.55;font-weight:300}
 
-/* ══════ FORM SECTION ══════ */
+/* ââââââ FORM SECTION ââââââ */
 .form-section{padding:4rem 2rem;max-width:650px;margin:0 auto}
 .form-section .section-label{font-size:0.75rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);text-align:center;margin-bottom:0.5rem}
 .form-section h2{text-align:center;font-size:2rem;margin-bottom:0.5rem}
 .form-section .section-desc{text-align:center;color:var(--text-muted);margin-bottom:2rem}
 .form-card{background:var(--charcoal);border:1px solid var(--dark-gray);border-radius:16px;padding:2.5rem 2rem;position:relative;overflow:hidden}
 .form-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--silver-dark),var(--gold),var(--gold-dark),var(--silver-dark))}
-.form-header{text-align:center;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:1px solid var(--dark-gray)}
-.form-header h3{font-size:1.4rem;margin-bottom:0.25rem}
-.form-header p{font-size:0.85rem;color:var(--text-muted)}
-.form-header p span{color:var(--gold)}
 
-/* ══════ PROGRESS BAR ══════ */
+/* ââââââ PROGRESS BAR ââââââ */
 .progress{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem}
 .prog-dot{flex:1;height:3px;background:var(--mid-gray);border-radius:2px;transition:background 0.3s}
 .prog-dot.active{background:var(--gold)}
 .prog-label{text-align:right;font-size:0.75rem;color:var(--text-muted);letter-spacing:1px;margin-bottom:2rem}
 
-/* ══════ FORM FIELDS ══════ */
+/* ââââââ FORM FIELDS ââââââ */
 .form-page{display:none}
 .form-page.active{display:block}
 .page-title{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;margin-bottom:0.25rem}
@@ -91,7 +85,7 @@ nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-co
 .radio-item.selected .radio-dot::after{content:'';position:absolute;top:3px;left:3px;width:6px;height:6px;border-radius:50%;background:var(--gold)}
 .radio-label{font-size:0.85rem;color:var(--text)}
 
-/* ══════ BUTTONS ══════ */
+/* ââââââ BUTTONS ââââââ */
 .form-nav{display:flex;justify-content:space-between;margin-top:2rem;gap:1rem}
 .btn{padding:0.8rem 2rem;border:none;border-radius:8px;font-family:'Inter',sans-serif;font-size:0.9rem;font-weight:600;cursor:pointer;transition:all 0.3s}
 .btn-back{background:transparent;border:1px solid var(--mid-gray);color:var(--text-muted)}
@@ -102,19 +96,19 @@ nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-co
 .spinner{display:inline-block;width:16px;height:16px;border:2px solid rgba(10,10,10,0.3);border-top-color:var(--black);border-radius:50%;animation:spin .6s linear infinite;vertical-align:middle;margin-right:6px}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-/* ══════ SUCCESS ══════ */
+/* ââââââ SUCCESS ââââââ */
 .success-screen{display:none;text-align:center;padding:5rem 2rem;max-width:600px;margin:0 auto}
 .success-screen.visible{display:block}
 .success-screen h2{font-size:2rem;margin-bottom:1rem;color:var(--silver-light)}
 .success-screen p{color:var(--text-muted);line-height:1.6;margin-bottom:0.5rem}
 
-/* ══════ FOOTER ══════ */
+/* ââââââ FOOTER ââââââ */
 footer{text-align:center;padding:3rem 2rem;border-top:1px solid var(--dark-gray);margin-top:4rem}
 footer p{font-size:0.72rem;color:var(--silver-dark);letter-spacing:0.5px}
 footer a{color:var(--silver);text-decoration:none;transition:color 0.3s}
 footer a:hover{color:var(--gold)}
 
-/* ══════ RESPONSIVE ══════ */
+/* ââââââ RESPONSIVE ââââââ */
 @media(max-width:600px){
   nav{padding:0.75rem 1rem}
   .nav-logo span{font-size:0.8rem}
@@ -134,7 +128,7 @@ footer a:hover{color:var(--gold)}
     <span>The Upgraded<br>Gentleman</span>
   </a>
   <div class="nav-links">
-    <a href="poll.html">Take the Poll</a>
+    <a href="#poll">Take the Poll</a>
     <a href="#how">How It Works</a>
   </div>
 </nav>
@@ -147,12 +141,10 @@ footer a:hover{color:var(--gold)}
   <div class="hero-badge">Cologne Collection</div>
   <h1>The Upgraded <span class="accent">Gentleman</span></h1>
   <p class="subtitle">Help us curate the ultimate cologne collection. Vote for your favorites and shape what scents we feature next.</p>
-  <a href="poll.html" class="cta-btn">Take the Poll &rarr;</a>
-  <div class="hero-divider"></div>
-  <div class="scroll-hint">Scroll to learn more</div>
+  <a href="#poll" class="cta-btn">Take the Poll &rarr;</a>
 </section>
 
-<!-- FEATURES -->
+<!-- HOW IT WORKS -->
 <section class="features" id="how">
   <div class="section-label">How It Works</div>
   <h2>Your Voice Matters</h2>
@@ -171,7 +163,7 @@ footer a:hover{color:var(--gold)}
     <div class="feature-card">
       <div class="num">03</div>
       <h3>Launch</h3>
-      <p>The top-voted scents become part of The Upgraded Gentleman collection — available exclusively to our community.</p>
+      <p>The top-voted scents become part of The Upgraded Gentleman collection â available exclusively to our community.</p>
     </div>
     <div class="feature-card">
       <div class="num">04</div>
@@ -181,14 +173,166 @@ footer a:hover{color:var(--gold)}
   </div>
 </section>
 
+<!-- POLL FORM -->
+<section class="form-section" id="poll">
+  <div class="section-label">Cologne Poll</div>
+  <h2>Cast Your Vote</h2>
+  <p class="section-desc">All fields with <span style="color:var(--gold)">*</span> are required</p>
+
+  <div class="form-card" id="formContainer">
+    <div class="progress">
+      <div class="prog-dot active" id="prog1"></div>
+      <div class="prog-dot" id="prog2"></div>
+      <div class="prog-dot" id="prog3"></div>
+    </div>
+    <div class="prog-label" id="progLabel">Step 1 of 3</div>
+
+    <!-- PAGE 1: About You -->
+    <div class="form-page active" id="page1">
+      <div class="page-title">About You</div>
+      <div class="page-desc">Basic contact information.</div>
+      <div class="field">
+        <label>First Name <span class="req">*</span></label>
+        <input type="text" id="firstName" placeholder="First Name">
+      </div>
+      <div class="field">
+        <label>Last Name <span class="req">*</span></label>
+        <input type="text" id="lastName" placeholder="Last Name">
+      </div>
+      <div class="field">
+        <label>Email <span class="req">*</span></label>
+        <input type="email" id="email" placeholder="Email">
+      </div>
+      <div class="field">
+        <label>Where are you from?</label>
+        <input type="text" id="city" placeholder="City, State">
+      </div>
+      <div class="form-nav">
+        <div></div>
+        <button class="btn btn-next" onclick="goToPage(2)">Continue</button>
+      </div>
+    </div>
+
+    <!-- PAGE 2: Scent Preferences -->
+    <div class="form-page" id="page2">
+      <div class="page-title">Scent Preferences</div>
+      <div class="page-desc">What kind of fragrances do you gravitate toward?</div>
+      <div class="field">
+        <label>What scent family do you prefer? <span class="req">*</span></label>
+        <div class="radio-group" id="scentFamily">
+          <div class="radio-item" onclick="selectRadio(this,'scentFamily')">
+            <div class="radio-dot"></div><span class="radio-label">Fresh &amp; Clean (citrus, aquatic, green)</span>
+            <input type="radio" name="scentFamily" value="Fresh & Clean">
+          </div>
+          <div class="radio-item" onclick="selectRadio(this,'scentFamily')">
+            <div class="radio-dot"></div><span class="radio-label">Warm &amp; Spicy (amber, cinnamon, oud)</span>
+            <input type="radio" name="scentFamily" value="Warm & Spicy">
+          </div>
+          <div class="radio-item" onclick="selectRadio(this,'scentFamily')">
+            <div class="radio-dot"></div><span class="radio-label">Woody &amp; Earthy (sandalwood, cedar, vetiver)</span>
+            <input type="radio" name="scentFamily" value="Woody & Earthy">
+          </div>
+          <div class="radio-item" onclick="selectRadio(this,'scentFamily')">
+            <div class="radio-dot"></div><span class="radio-label">Sweet &amp; Gourmand (vanilla, tonka, caramel)</span>
+            <input type="radio" name="scentFamily" value="Sweet & Gourmand">
+          </div>
+          <div class="radio-item" onclick="selectRadio(this,'scentFamily')">
+            <div class="radio-dot"></div><span class="radio-label">Bold &amp; Leather (leather, tobacco, smoky)</span>
+            <input type="radio" name="scentFamily" value="Bold & Leather">
+          </div>
+        </div>
+      </div>
+      <div class="field">
+        <label>When do you mostly wear cologne?</label>
+        <select id="wearOccasion">
+          <option value="">Select occasion</option>
+          <option value="Daily / Office">Daily / Office</option>
+          <option value="Nights Out">Nights Out</option>
+          <option value="Special Events">Special Events</option>
+          <option value="All occasions">All occasions</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>How much do you usually spend on a bottle?</label>
+        <select id="priceRange">
+          <option value="">Select range</option>
+          <option value="Under $50">Under $50</option>
+          <option value="$50 - $100">$50 - $100</option>
+          <option value="$100 - $200">$100 - $200</option>
+          <option value="$200+">$200+</option>
+        </select>
+      </div>
+      <div class="form-nav">
+        <button class="btn btn-back" onclick="goToPage(1)">Back</button>
+        <button class="btn btn-next" onclick="goToPage(3)">Continue</button>
+      </div>
+    </div>
+
+    <!-- PAGE 3: Top Picks -->
+    <div class="form-page" id="page3">
+      <div class="page-title">Your Top Picks</div>
+      <div class="page-desc">Vote for colognes you'd love to see in the collection.</div>
+      <div class="field">
+        <label>Cologne A â Bleu de Chanel <span class="req">*</span></label>
+        <div class="radio-group" id="cologneA">
+          <div class="radio-item" onclick="selectRadio(this,'cologneA')"><div class="radio-dot"></div><span class="radio-label">Yes â I'd buy this</span><input type="radio" name="cologneA" value="Yes"></div>
+          <div class="radio-item" onclick="selectRadio(this,'cologneA')"><div class="radio-dot"></div><span class="radio-label">No â not for me</span><input type="radio" name="cologneA" value="No"></div>
+        </div>
+      </div>
+      <div class="field">
+        <label>Cologne B â Dior Sauvage <span class="req">*</span></label>
+        <div class="radio-group" id="cologneB">
+          <div class="radio-item" onclick="selectRadio(this,'cologneB')"><div class="radio-dot"></div><span class="radio-label">Yes â I'd buy this</span><input type="radio" name="cologneB" value="Yes"></div>
+          <div class="radio-item" onclick="selectRadio(this,'cologneB')"><div class="radio-dot"></div><span class="radio-label">No â not for me</span><input type="radio" name="cologneB" value="No"></div>
+        </div>
+      </div>
+      <div class="field">
+        <label>Cologne C â Tom Ford Oud Wood <span class="req">*</span></label>
+        <div class="radio-group" id="cologneC">
+          <div class="radio-item" onclick="selectRadio(this,'cologneC')"><div class="radio-dot"></div><span class="radio-label">Yes â I'd buy this</span><input type="radio" name="cologneC" value="Yes"></div>
+          <div class="radio-item" onclick="selectRadio(this,'cologneC')"><div class="radio-dot"></div><span class="radio-label">No â not for me</span><input type="radio" name="cologneC" value="No"></div>
+        </div>
+      </div>
+      <div class="field">
+        <label>Cologne D â Versace Eros <span class="req">*</span></label>
+        <div class="radio-group" id="cologneD">
+          <div class="radio-item" onclick="selectRadio(this,'cologneD')"><div class="radio-dot"></div><span class="radio-label">Yes â I'd buy this</span><input type="radio" name="cologneD" value="Yes"></div>
+          <div class="radio-item" onclick="selectRadio(this,'cologneD')"><div class="radio-dot"></div><span class="radio-label">No â not for me</span><input type="radio" name="cologneD" value="No"></div>
+        </div>
+      </div>
+      <div class="field">
+        <label>Cologne E â YSL La Nuit de L'Homme <span class="req">*</span></label>
+        <div class="radio-group" id="cologneE">
+          <div class="radio-item" onclick="selectRadio(this,'cologneE')"><div class="radio-dot"></div><span class="radio-label">Yes â I'd buy this</span><input type="radio" name="cologneE" value="Yes"></div>
+          <div class="radio-item" onclick="selectRadio(this,'cologneE')"><div class="radio-dot"></div><span class="radio-label">No â not for me</span><input type="radio" name="cologneE" value="No"></div>
+        </div>
+      </div>
+      <div class="field">
+        <label>Any cologne you wish we'd add?</label>
+        <textarea id="suggestions" placeholder="Tell us what fragrances you'd love to see..."></textarea>
+      </div>
+      <div class="form-nav">
+        <button class="btn btn-back" onclick="goToPage(2)">Back</button>
+        <button class="btn btn-submit" onclick="submitPoll()">Submit My Vote &rarr;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SUCCESS -->
+<section class="success-screen" id="successScreen">
+  <h2>Thank You, Gentleman</h2>
+  <p>Your vote has been recorded. We'll use your feedback to curate the perfect collection.</p>
+  <p style="margin-top:1rem;color:var(--gold)">Stay tuned â we'll notify you when the collection drops.</p>
+</section>
 
 <!-- FOOTER -->
 <footer>
-  <p>&copy; 2026 The Upgraded Gentleman — A Zorro Marketing Service &nbsp;|&nbsp; <a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a></p>
+  <p>&copy; 2026 The Upgraded Gentleman â A Zorro Marketing Service &nbsp;|&nbsp; <a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a></p>
 </footer>
 
 <script>
-/* ══════ SMOOTH SCROLL ══════ */
+/* ââââââ SMOOTH SCROLL ââââââ */
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
     e.preventDefault();
@@ -196,6 +340,132 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 });
+
+/* ââââââ FORM NAV ââââââ */
+let currentPage = 1;
+const totalPages = 3;
+
+function goToPage(page) {
+  if (page > currentPage && !validatePage(currentPage)) return;
+  document.getElementById('page' + currentPage).classList.remove('active');
+  document.getElementById('page' + page).classList.add('active');
+  currentPage = page;
+  for (let i = 1; i <= totalPages; i++) {
+    document.getElementById('prog' + i).classList.toggle('active', i <= page);
+  }
+  document.getElementById('progLabel').textContent = 'Step ' + page + ' of ' + totalPages;
+  document.getElementById('formContainer').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+/* ââââââ RADIO SELECT ââââââ */
+function selectRadio(el, groupId) {
+  const group = document.getElementById(groupId);
+  group.querySelectorAll('.radio-item').forEach(item => item.classList.remove('selected'));
+  el.classList.add('selected');
+  el.querySelector('input').checked = true;
+}
+
+/* ââââââ VALIDATION ââââââ */
+function clearAllErrors() {
+  document.querySelectorAll('.field-error').forEach(e => e.remove());
+  document.querySelectorAll('input,select,textarea').forEach(e => e.style.borderColor = '');
+}
+
+function showError(id, msg) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.style.borderColor = 'var(--red)';
+  const w = el.closest('.field');
+  if (!w) return;
+  const e = document.createElement('div');
+  e.className = 'field-error';
+  e.textContent = msg;
+  w.appendChild(e);
+}
+
+function showGroupError(id, msg) {
+  const g = document.getElementById(id);
+  if (!g) return;
+  const w = g.closest('.field');
+  if (!w) return;
+  const e = document.createElement('div');
+  e.className = 'field-error';
+  e.textContent = msg;
+  w.appendChild(e);
+}
+
+function validatePage(p) {
+  clearAllErrors();
+  let ok = true;
+  if (p === 1) {
+    if (!document.getElementById('firstName').value.trim()) { showError('firstName','First name is required'); ok = false; }
+    if (!document.getElementById('lastName').value.trim()) { showError('lastName','Last name is required'); ok = false; }
+    const em = document.getElementById('email').value.trim();
+    if (!em) { showError('email','Email is required'); ok = false; }
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)) { showError('email','Enter a valid email'); ok = false; }
+  }
+  if (p === 2) {
+    if (!document.querySelector('#scentFamily .radio-item.selected')) { showGroupError('scentFamily','Please select a scent preference'); ok = false; }
+  }
+  if (p === 3) {
+    ['cologneA','cologneB','cologneC','cologneD','cologneE'].forEach(id => {
+      if (!document.querySelector('#' + id + ' .radio-item.selected')) { showGroupError(id,'Please vote on this cologne'); ok = false; }
+    });
+  }
+  return ok;
+}
+
+/* ââââââ SUBMIT ââââââ */
+const GHL_WEBHOOK = 'https://services.leadconnectorhq.com/hooks/bJsYIf8nB96RVNcAQNvs/webhook-trigger/tug-cologne-poll';
+const SHEETS_WEBHOOK = 'https://script.google.com/macros/s/AKfycbzkXglwm9KF4nBvxf2VpdFoVl6YONgE_TUBKsRxqMVytGwYZilBpYH7sbi_yPgjM9hEiA/exec';
+
+async function submitPoll() {
+  if (!validatePage(currentPage)) return;
+
+  const btn = document.querySelector('.btn-submit');
+  const origHTML = btn.innerHTML;
+  btn.innerHTML = '<span class="spinner"></span> Submitting...';
+  btn.disabled = true;
+
+  const getRadioVal = (name) => {
+    const sel = document.querySelector('input[name="' + name + '"]:checked');
+    return sel ? sel.value : '';
+  };
+
+  const data = {
+    source: 'tug-cologne-poll',
+    first_name: document.getElementById('firstName').value.trim(),
+    last_name: document.getElementById('lastName').value.trim(),
+    email: document.getElementById('email').value.trim(),
+    city: document.getElementById('city').value.trim(),
+    scent_family: getRadioVal('scentFamily'),
+    wear_occasion: document.getElementById('wearOccasion').value,
+    price_range: document.getElementById('priceRange').value,
+    cologne_a_bleu: getRadioVal('cologneA'),
+    cologne_b_sauvage: getRadioVal('cologneB'),
+    cologne_c_oud_wood: getRadioVal('cologneC'),
+    cologne_d_eros: getRadioVal('cologneD'),
+    cologne_e_la_nuit: getRadioVal('cologneE'),
+    suggestions: document.getElementById('suggestions').value.trim(),
+    submitted_at: new Date().toISOString()
+  };
+
+  try {
+    await fetch(SHEETS_WEBHOOK, { method: 'POST', body: JSON.stringify(data), mode: 'no-cors' });
+  } catch(e) { console.error('Sheets error:', e); }
+
+  try {
+    await fetch(GHL_WEBHOOK, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
+  } catch(e) {
+    try {
+      await fetch(GHL_WEBHOOK, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data), mode: 'no-cors' });
+    } catch(e2) { console.error('GHL error:', e2); }
+  }
+
+  document.querySelector('.form-section').style.display = 'none';
+  document.getElementById('successScreen').classList.add('visible');
+  document.getElementById('successScreen').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
 </script>
 </body>
 </html>
