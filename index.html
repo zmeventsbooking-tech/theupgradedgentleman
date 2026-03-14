@@ -507,9 +507,7 @@ async function submitPoll() {
   };
 
   try {
-    const params = new URLSearchParams();
-    Object.entries(data).forEach(([k, v]) => params.append(k, v));
-    await fetch(SHEETS_WEBHOOK, { method: 'POST', body: params, mode: 'no-cors' });
+    await fetch(SHEETS_WEBHOOK, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(data), mode: 'no-cors' });
   } catch(e) { console.error('Sheets error:', e); }
 
   try {
